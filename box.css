@@ -96,3 +96,23 @@ margin: 50px;
     height: 250px;
 }
 }
+@media all and (max-width:340px) {
+    .container .card {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .container .card:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .container .card .imgbx,
+    .container .card .content {
+        width: 100%;
+    }
+
+    .container .card .content {
+        height: 360px;
+    }
+}
+
