@@ -57,7 +57,7 @@ padding: 20px;
 text-align: center;
 
 }
-@media all and (max-width:1000px)
+@media (max-width:1000px)
 {
 .container
 {
@@ -78,7 +78,7 @@ margin: 50px;
     width: 50%;
 }
 }
-@media all and (max-width:600px)
+@media (max-width:600px)
 {
     .container .card {
         flex-direction: column;
@@ -96,7 +96,7 @@ margin: 50px;
     height: 250px;
 }
 }
-@media all and (max-width:340px) {
+@media (max-width:340px) {
     .container .card {
         flex-direction: column;
         margin: 10px 0;
